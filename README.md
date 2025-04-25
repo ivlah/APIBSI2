@@ -1,70 +1,7 @@
-# Getting Started with Create React App
+GitHub Copilot war für uns in vielen Situationen ein nützliches Werkzeug. Besonders hilfreich war es beim Schreiben von wiederkehrenden Mustern im Code, z. B. bei der Erstellung von React-Komponenten, API-Aufrufen mit Axios oder beim Schreiben einfacher Funktionen. In solchen Fällen hat Copilot oft passende und sofort nutzbare Vorschläge gemacht, die uns Zeit und Mühe gespart haben.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Allerdings mussten einige Vorschläge von uns angepasst werden, vor allem wenn sie nicht ganz dem Stil oder der Architektur des Projekts entsprachen. Beispielsweise hat Copilot manchmal veraltete oder nicht empfohlene Methoden vorgeschlagen, die wir für unser aktuelles React-Projekt nicht nutzen wollten.
 
-## Available Scripts
+Falschen Code hat Copilot nur selten bei komplexeren Aufgaben generiert, zum Beispiel bei der Generierung von Logik für Formularvalidierungen oder bei der Arbeit mit APIs, die eine bestimmte Authentifizierung erfordern. Dort hat es teilweise Funktionen vorgeschlagen inhaltlich nicht zur konkreten Anforderung passten.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Insgesamt war Copilot für das Projekt ein produktives Assistenztool, das hilft, schneller und produktiver zu arbeiten – jedoch mussten wir immer im Hinterkopf behalten, dass die Vorschläge überprüft und an das konkrete Projekt angepasst werden müssen.
